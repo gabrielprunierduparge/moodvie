@@ -1,0 +1,19 @@
+Alors on a identifié 3 parties :
+
+- partie user : 
+      -> BUT : identifier le mood de l'utilisateur qui veut faire le film
+
+- partie film : 
+      -> BUT : caractériser les films
+      
+- interface : 
+      -> BUT : comment matcher les mood utilisateurs et films
+      
+Difficultés :
+- Attention, tout ne doit pas être arbitraire. Exemple du quizz utilisateur : une question qui propose trois films représentatifs de 3 clusters est mieux que proposer 3 morceaux arbitrairement attribués à des moods
+
+Etapes : 
+- datavis sur la database de gabriel : voir combien de films ca représente, les distribution selon différents keywords, la quantité de NA...
+- éditer un premier questionnaire arbitraire
+- une fois la datavis effectuée, travailler le clustering pour avoir au moins cette question de choisir entre des têtes de cluster
+-réfléchir sur les autres étapes pour rendre les choses moins arbitraires.
